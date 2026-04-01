@@ -73,8 +73,11 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch --nproc_per_node
 
 
 ### 3️⃣ Attack-Defense Semantic Reinforcement
+
 *⚠️ Ensure all dataset paths are correctly configured in .py config files*
+
 ***⚠️⚠️ Ensure all pretrained weights paths are correctly configured in .py config files***
+
 #### MFNet Dataset
 ```bash
 CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch --nproc_per_node=4 --master_port=25888 trainADseg.py config_MFNet/config_train_generator_ADseg.py --launcher pytorch
