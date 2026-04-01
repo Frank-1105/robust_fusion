@@ -104,8 +104,8 @@ python testfusion.py config_FMB/config_train_Fusion.py
 
 
 ### 🧠 Semantic Test 
-Test semantic segmentation accuracy of fused images with pre-trained checkpoints
-*⚠️ Ensure all dataset paths are correctly configured in .py config files*
+Test semantic segmentation accuracy of fused images with pre-trained checkpoints<br>
+*⚠️ Ensure all dataset paths are correctly configured in .py config files*<br>
 ***⚠️⚠️ Ensure all pretrained weights paths are correctly configured in .py config files***
 #### MFNet Dataset
 ```bash
